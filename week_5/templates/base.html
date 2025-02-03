@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title if title else "Flask Demo" }}</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Flask App</h1>
+    </header>
+    <main>
+        <!-- This is where child templates will go -->
+        {% block content %}{% endblock %}
+    </main>
+</body>
+
+</html>
